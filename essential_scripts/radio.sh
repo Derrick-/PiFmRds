@@ -3,8 +3,8 @@
 #The program crashes after 4-5 hours, we can just restart to keep it going.
 
 FREQ=92.0
-STATION_NAME="Niall FM"
-RADIO_TEXT="Welcome to Niall FM"
+STATION_NAME="JISH FM"
+RADIO_TEXT="Jish Royale - The county's favourite gambling site!"
 DELAY_RESTART=10s
 
 cd /home/pi/Desktop/PiFmRds-master/src
@@ -12,7 +12,7 @@ while [ 1 ]
 do
   echo .
   echo "*********"
-  echo " >>> Starting Niall FM Radio Station..."
+  echo " >>> Starting JISH ROYALE FM Radio Station..."
   echo "The time is currently:"
   date
   echo .
